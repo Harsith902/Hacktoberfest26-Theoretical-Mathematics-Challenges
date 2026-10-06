@@ -55,7 +55,7 @@ Don't forget to put your working for E at the top of every submission.
 ## Ground rules
 
 - **Deadline:** 31 October 2026, 23:59 IST.
-- **Your folder:** every task has its own folder, and you make your own folder inside it: `Level_N/<task-folder>/<your-github-username>/`, for example :`Level_1/A_bridges/math-cat7/`. Only add or change files inside your own folder.
+- **Your folder:** every task has its own folder, and you make your own folder inside it: `Level_N/<task-folder>/<your-github-username>/`, for example :`Level_1/A_city/math-cat7/`. Only add or change files inside your own folder.
 - **One pull request per task.** If something needs fixing, push more commits to the same pull request. Don't open a new one.
 - **At most two open pull requests at a time.** When one is merged, you can open another.
 - **Pseudocode is welcome.** Any programming language is fine too. Code is optional, except where a task asks for a computer run.

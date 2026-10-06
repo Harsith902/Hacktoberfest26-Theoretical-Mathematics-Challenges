@@ -1,6 +1,6 @@
 # 2B: The random walker
 
-Part of [Level 2: Break](../README.md). You need your **Enigma number E** (see the [main README](../../README.md#your-enigma-number-e)). The examples use E = 4671, from the username `math-cat7`. This task also uses your map from [task 1A](../../Level_1/A_bridges/README.md).
+Part of [Level 2: Break](../README.md). You need your **Enigma number E** (see the [main README](../../README.md#your-enigma-number-e)). The examples use E = 4671, from the username `math-cat7`. This task also uses your map from [task 1A](../../Level_1/A_city/README.md).
 
 **What to submit:** one pull request that adds your work to `Level_2/B_random_walker/<your-github-username>/`. Any format is fine: a `solution.md`, a scanned PDF of handwritten pages, or photos of your pages. Keep each file under 2 MB.
 

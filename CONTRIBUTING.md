@@ -40,13 +40,13 @@ git switch -c 1a
 
 ## 5. Create your folder and add your work
 
-Every task has its own folder. For task 1A, that's `Level_1/A_bridges`:
+Every task has its own folder. For task 1A, that's `Level_1/A_city`:
 
 ```bash
-mkdir Level_1/A_bridges/<your-username>
+mkdir Level_1/A_city/<your-username>
 ```
 
-On Windows without a terminal, you can create the folder by hand. The result must be `Level_1/A_bridges/<your-username>/`.
+On Windows without a terminal, you can create the folder by hand. The result must be `Level_1/A_city/<your-username>/`.
 
 Put your work in that folder, in any format: a `solution.md`, a scanned PDF of handwritten pages, or photos. Keep each file under 2 MB. The end of the task's README lists what we expect to see. (Git only notices a folder once it has a file in it.)
 
@@ -55,7 +55,7 @@ Put your work in that folder, in any format: a `solution.md`, a scanned PDF of h
 ## 6. Commit your work
 
 ```bash
-git add Level_1/A_bridges/<your-username>
+git add Level_1/A_city/<your-username>
 git commit -m "1A: <your-username>"
 ```
 
@@ -76,7 +76,7 @@ Go to your fork on GitHub. You'll see a button to **Compare & pull request**. Cl
 Reviewers may ask for changes. Make them in the same folder, then:
 
 ```bash
-git add Level_1/A_bridges/<your-username>
+git add Level_1/A_city/<your-username>
 git commit -m "1A: fix after review"
 git push
 ```
@@ -121,7 +121,7 @@ If you don't like fetch and merge, you can do `git pull upstream main` instead: 
 
 **"'switch' is not a git command".** Your git is older than version 2.23. Update git, or use `git checkout -b 1a` instead of `git switch -c 1a`, and `git checkout main` instead of `git switch main`.
 
-**I named my folder wrong.** Rename it with `git mv Level_1/A_bridges/wrong-name Level_1/A_bridges/<your-username>`, then commit and push.
+**I named my folder wrong.** Rename it with `git mv Level_1/A_city/wrong-name Level_1/A_city/<your-username>`, then commit and push.
 
 **I committed to `main` by mistake.** Create a branch from where you are with `git switch -c 1a`, then run `git push -u origin 1a` and open the pull request from that branch.
 
